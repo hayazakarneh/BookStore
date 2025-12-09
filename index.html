@@ -3,9 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Books</title>
 </head>
 <body>
-    kfjv;fjk'lrfkg'rkrjgkk
-</body>
-</html>
+
+    <!-- This is for the Navbar (The floating menu)  -->
+    <header>
+        <nav class="navBar">
+            <div id="navContainer">
+                <div>
+                    <img id="navBarLogo" src="logo.png" alt="">
+                </div>
+
+                <ul id="navBarList">
+                    <li><a class="navBarListAnchor" href="#hero">Home</a></li>
+                    <li><a class="navBarListAnchor" href="#about">About</a></li>
+                    <li><a class="navBarListAnchor" href="#featured">Featured</a></li>
+                    <li><a class="navBarListAnchor" href="#arrival">Arrivals</a></li>
+                    <li><a class="navBarListAnchor" href="#reviews">Reviews</a></li>
+                    <li><a class="navBarListAnchor" href="#blog">Blog</a></li>
+                </ul>
+
+                <div id="navBarIcons">
+                    <img class="navIcon" src="icons8-search-50.png" alt="Search icon logo">
+                    <img class="navIcon" src="heart-solid-full.svg" alt="Heart logo">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section 1 Hero part, WELCOME TO BOOK STORE  -->
+    <section class="hero" id="hero">
+        <div class="heroContainer">
+            <div class="heroContainerContent">
+                <h1>WELCOME TO<br>BOOK STORE</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna.<br>
+                    Aliqua ut enim ad minim veniam, quis nostrud exercitation.<br>
+                </p>
+                <button >Learn More</button>
+            </div>
+            <div class="heroContainerContentImg">
+                <img src="table.png" alt="table image">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 2  -->
+    <section class="service" id="service">
+        
+        <div class="serviceContainer">
+    
+            <div class="serviceContainerContent">
+                <img src="truck-fast-solid-full.svg">
+                <h2>Fast Delivery</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipiscing elit.</p>
+            </div>
+
+
+            <div class="serviceContainerContent">
+                <img src="headphones-solid-full.svg">
+                <h2>24 x 7 Services</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipiscing elit.</p>
+            </div>
+
+
+            <div class="serviceContainerContent">
+                <img src="tags-solid-svgrepo-com.svg">
+                <h2>Best Deal</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipiscing elit.</p>
+            </div>
+
+
+            <div class="serviceContainerContent">
+                <img src="lock-solid-full.svg">
+                <h2>Secure Payment</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipiscing elit.</p>
+            </div>
+    
+         </div>
+    </section>
+    
+
+    <!-- Section 3  -->
+    <section class="about" id="about">
+        <div class="aboutContainer">
+            <div class="aboutContainerImg">
+                <img  src="./SourceImages/about.png" alt="">
+            </div>
+            <div class="aboutContainerContent">
+                <h1 class="aboutSectionHeader">About Us</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna.>
+                    Aliqua ut enim ad minim veniam, quis nostrud exercitation. 
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+                    Duis aute irure dolor in reprehenderit in voluptate velit.   
+                    Esse cillum dolore eu fugiat nulla pariatur excepteur sint.    
+                    Occaecat cupidatat non proident, sunt in culpa qui officia.  
+                    Let me know if you'd like another variation!
+                </p>
+                <button>Learn More</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="featured-books">
+        <h1 class="sectionHeader">Featured Books</h1>
+        <div class="scroll-box">
+        
+        <!-- Book 1 -->
+            <div class="book">
+                <img src="about.png" alt="Book 1">
+                <h2>Featured Books</h2>
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">(25.50$ <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+            
+            <!-- Book 2 -->
+            <div class="book">
+                <img src="book_1.jpg" alt="Book 1">
+                <h2>Featured Books</h2>
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+            
+            <!-- Book 3 -->
+            <div class="book">
+                <img src="blog_2.jpg" alt="Book 2">
+                <h2>Featured Books</h2>
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+            
+            <!-- Book 4-->
+            <div class="book">
+                <img src="book_3.jpg" alt="Book 3">  
+                <h2>Featured Books</h2>    
+                <p class="bookAuthor">John Deo</p>  
+                <p class="bookGenere">Thriller, Horror, Romance</p>  
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>   
+                <button>Learn More</button>  
+            </div>
+                
+            
+            <!-- Book 5 -->
+            <div class="book">
+                <img src="book_4.jpg" alt="Book 4">   
+                <h2>Featured Books</h2>      
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>       
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>         
+                <button>Learn More</button>  
+            </div>
+
+            <!-- Book 6 -->
+            <div class="book">
+                <img src="5" alt="Book 5">
+                <h2>Featured Books</h2>
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">(25.50$ <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+            <!-- Book 7 -->  
+            <div class="book">
+                <img src="book_6.jpg" alt="Book 6">
+                <h2>Featured Books</h2>
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+            
+            <!-- Book 8 -->
+            <div class="book">
+                <img src="book_7.png" alt="Book 7">
+                <h2>Featured Books</h2>
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+            
+            <!-- Book 9 -->
+            <div class="book">
+                <img src="book_8.png" alt="Book 8"> 
+                <h2>Featured Books</h2>  
+                <p class="bookAuthor">John Deo</p> 
+                <p class="bookGenere">Thriller, Horror, Romance</p>   
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>  
+                <button>Learn More</button>    
+            </div>
+                
+            <!-- Book 10 -->
+            <div class="book">
+                <img src="book_9.jpg" alt="Book 9">   
+                <h2>Featured Books</h2>   
+                <p class="bookAuthor">John Deo</p> 
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">($25.50 <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+        
+        
+        
+            <!-- Book 11 -->
+            <div class="book">
+                <img src="book_10.png" alt="Book 10">
+                <h2>Featured Books</h2>
+                <p class="bookAuthor">John Deo</p>
+                <p class="bookGenere">Thriller, Horror, Romance</p>
+                <p class="price">(25.50$ <span class="old-price">)$30.00</span></p>
+                <button>Learn More</button>
+            </div>
+
+
+
+
+
